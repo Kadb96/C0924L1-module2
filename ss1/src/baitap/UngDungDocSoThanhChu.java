@@ -2,7 +2,7 @@ package baitap;
 
 import java.util.Scanner;
 
-public class ungDungDocSoThanhChu {
+public class UngDungDocSoThanhChu {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] numberArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
