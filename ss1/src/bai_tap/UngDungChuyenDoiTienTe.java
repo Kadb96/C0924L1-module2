@@ -1,4 +1,4 @@
-package baitap;
+package bai_tap;
 
 import java.util.Scanner;
 

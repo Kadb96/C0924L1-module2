@@ -47,6 +47,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.HienThi20SoNguyenDauTien.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiCacSoNguyenToNhoHon100.executor&quot;: &quot;Run&quot;,
     &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
     &quot;Application.UngDungChuyenDoiTienTe.executor&quot;: &quot;Run&quot;,
     &quot;Application.ungDungDocSoThanhChu.executor&quot;: &quot;Run&quot;,
@@ -71,11 +72,11 @@
   </component>
   <component name="RunManager" selected="Application.HienThiCacSoNguyenToNhoHon100">
     <configuration name="HienThi20SoNguyenDauTien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.HienThi20SoNguyenDauTien" />
+      <option name="MAIN_CLASS_NAME" value="bai_tap.HienThi20SoNguyenDauTien" />
       <module name="ss2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.*" />
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="HienThiCacLoaiHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.HienThiCacLoaiHinh" />
+      <option name="MAIN_CLASS_NAME" value="bai_tap.HienThiCacLoaiHinh" />
       <module name="ss2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.*" />
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +98,11 @@
       </method>
     </configuration>
     <configuration name="HienThiCacSoNguyenToNhoHon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.HienThiCacSoNguyenToNhoHon100" />
+      <option name="MAIN_CLASS_NAME" value="bai_tap.HienThiCacSoNguyenToNhoHon100" />
       <module name="ss2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.*" />
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +115,7 @@
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.*" />
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +128,7 @@
       <module name="module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.*" />
+          <option name="PATTERN" value="bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +177,7 @@
       <workItem from="1732811024384" duration="6079000" />
       <workItem from="1732821335255" duration="29000" />
       <workItem from="1732885461998" duration="3208000" />
+      <workItem from="1732888813761" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -209,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732888713530</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1732889055781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732889055781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,16 +228,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nop bai tap" />
     <option name="LAST_COMMIT_MESSAGE" value="nop bai tap" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ss2/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

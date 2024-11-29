@@ -1,6 +1,4 @@
-package baitap;
-
-import java.util.Scanner;
+package bai_tap;
 
 public class HienThi20SoNguyenDauTien {
     public static void main(String[] args) {

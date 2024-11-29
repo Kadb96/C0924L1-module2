@@ -1,4 +1,4 @@
-package baitap;
+package bai_tap;
 
 public class HienThiCacSoNguyenToNhoHon100 {
     public static void main(String[] args) {
