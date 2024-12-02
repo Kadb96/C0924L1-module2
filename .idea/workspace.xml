@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap" />
+    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
+      <change afterPath="$PROJECT_DIR$/ss3/src/bai_tap/ThemPhanTuVaoMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3/src/bai_tap/XoaPhanTuKhoiMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,34 +48,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HienThi20SoNguyenDauTien.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiCacSoNguyenToNhoHon100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UngDungChuyenDoiTienTe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ungDungDocSoThanhChu.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop/codegym/module2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Desktop/codegym/module2/ss2/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HienThi20SoNguyenDauTien.executor": "Run",
+    "Application.HienThiCacLoaiHinh.executor": "Run",
+    "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
+    "Application.HienThiLoiChao.executor": "Run",
+    "Application.ThemPhanTuVaoMang.executor": "Run",
+    "Application.UngDungChuyenDoiTienTe.executor": "Run",
+    "Application.XoaPhanTuKhoiMang.executor": "Run",
+    "Application.ungDungDocSoThanhChu.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/codegym/module2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss3/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HienThiCacSoNguyenToNhoHon100">
+  <component name="RunManager" selected="Application.ThemPhanTuVaoMang">
     <configuration name="HienThi20SoNguyenDauTien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.HienThi20SoNguyenDauTien" />
       <module name="ss2" />
@@ -110,9 +117,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UngDungChuyenDoiTienTe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.UngDungChuyenDoiTienTe" />
-      <module name="module2" />
+    <configuration name="ThemPhanTuVaoMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.ThemPhanTuVaoMang" />
+      <module name="ss3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bai_tap.*" />
@@ -123,9 +130,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UngDungDocSoThanhChu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.UngDungDocSoThanhChu" />
-      <module name="module2" />
+    <configuration name="XoaPhanTuKhoiMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.XoaPhanTuKhoiMang" />
+      <module name="ss3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bai_tap.*" />
@@ -149,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThemPhanTuVaoMang" />
+        <item itemvalue="Application.XoaPhanTuKhoiMang" />
         <item itemvalue="Application.HienThiCacSoNguyenToNhoHon100" />
         <item itemvalue="Application.HienThi20SoNguyenDauTien" />
         <item itemvalue="Application.HienThiCacLoaiHinh" />
-        <item itemvalue="Application.UngDungDocSoThanhChu" />
-        <item itemvalue="Application.UngDungChuyenDoiTienTe" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +185,8 @@
       <workItem from="1732821335255" duration="29000" />
       <workItem from="1732885461998" duration="3208000" />
       <workItem from="1732888813761" duration="244000" />
+      <workItem from="1732889475192" duration="75000" />
+      <workItem from="1733144460406" duration="2459000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -219,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732889055781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1732889542913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732889542913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,5 +245,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nop bai tap" />
     <option name="LAST_COMMIT_MESSAGE" value="nop bai tap" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss3/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
