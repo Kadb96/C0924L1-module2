@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss5/src/bai_tap/xay_dung_lop_chi_ghi_trong_java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/src/bai_tap/xay_dung_lop_chi_ghi_trong_java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/ss5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/src/bai_tap/access_modifier/Circle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +82,7 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TestCircle">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_quadratic_equation.Run" />
       <module name="ss4" />
@@ -113,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimGiaTriLonNhatTrongMangHaiChieu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.TimGiaTriLonNhatTrongMangHaiChieu" />
-      <module name="ss3" />
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.access_modifier.TestCircle" />
+      <module name="ss5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.*" />
+          <option name="PATTERN" value="bai_tap.access_modifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.bai_tap.xay_dung_lop_fan.Run" />
         <item itemvalue="Application.bai_tap.xay_dung_lop_stop_watch.Run" />
         <item itemvalue="Application.Run" />
-        <item itemvalue="Application.TimGiaTriLonNhatTrongMangHaiChieu" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +194,7 @@
       <workItem from="1733144460406" duration="2618000" />
       <workItem from="1733237774143" duration="6788000" />
       <workItem from="1733424787121" duration="4732000" />
-      <workItem from="1733490483044" duration="933000" />
+      <workItem from="1733490483044" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -272,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733432914484</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733491480500</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733491480500</updated>
+    </task>
+    <task id="LOCAL-00011" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733491491252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733491491252</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
