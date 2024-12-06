@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_fan/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_fan/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_quadratic_equation/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_quadratic_equation/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_stop_watch/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/src/bai_tap/xay_dung_lop_stop_watch/StopWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4/ss4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/src/bai_tap/xay_dung_lop_chi_ghi_trong_java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/src/bai_tap/xay_dung_lop_chi_ghi_trong_java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/ss5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -61,10 +57,12 @@
     "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
     "Application.HienThiLoiChao.executor": "Run",
     "Application.Run.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TimGiaTriLonNhatTrongMangHaiChieu.executor": "Run",
     "Application.UngDungChuyenDoiTienTe.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
+    "Application.bai_tap.xay_dung_lop_fan.Run.executor": "Run",
     "Application.bai_tap.xay_dung_lop_stop_watch.Run.executor": "Run",
     "Application.ungDungDocSoThanhChu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -78,7 +76,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss4/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss5/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -88,13 +86,13 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bai_tap.xay_dung_lop_fan.Run">
-    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.GopMang" />
-      <module name="ss3" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_quadratic_equation.Run" />
+      <module name="ss4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.*" />
+          <option name="PATTERN" value="bai_tap.xay_dung_lop_quadratic_equation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_quadratic_equation.Run" />
-      <module name="ss4" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_chi_ghi_trong_java.Test" />
+      <module name="ss5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.xay_dung_lop_quadratic_equation.*" />
+          <option name="PATTERN" value="bai_tap.xay_dung_lop_chi_ghi_trong_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.bai_tap.xay_dung_lop_fan.Run" />
         <item itemvalue="Application.bai_tap.xay_dung_lop_stop_watch.Run" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.TimGiaTriLonNhatTrongMangHaiChieu" />
-        <item itemvalue="Application.GopMang" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +197,8 @@
       <workItem from="1732889475192" duration="75000" />
       <workItem from="1733144460406" duration="2618000" />
       <workItem from="1733237774143" duration="6788000" />
-      <workItem from="1733424787121" duration="4689000" />
+      <workItem from="1733424787121" duration="4732000" />
+      <workItem from="1733490483044" duration="933000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733246959594</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733432914484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733432914484</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +294,11 @@
           <url>file://$PROJECT_DIR$/ss4/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss5/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
