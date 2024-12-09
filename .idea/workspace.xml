@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/lopcirclevalopcylinder/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/lopcirclevalopcylinder/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/lopcirclevalopcylinder/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/ss6.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +66,10 @@
     "Application.bai_tap.xay_dung_lop_fan.Run.executor": "Run",
     "Application.bai_tap.xay_dung_lop_stop_watch.Run.executor": "Run",
     "Application.ungDungDocSoThanhChu.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,7 +91,20 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bai_tap.lopcirclevalopcylinder.Run">
+  <component name="RunManager" selected="Application.Run">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.loppoint2dvaloppoint3d.Run" />
+      <module name="ss6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.loppoint2dvaloppoint3d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_chi_ghi_trong_java.Test" />
       <module name="ss5" />
@@ -142,19 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.xay_dung_lop_stop_watch.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_stop_watch.Run" />
-      <module name="ss4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_tap.xay_dung_lop_stop_watch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="module2" />
       <method v="2">
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run" />
         <item itemvalue="Application.bai_tap.lopcirclevalopcylinder.Run" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.bai_tap.xay_dung_lop_fan.Run" />
-        <item itemvalue="Application.bai_tap.xay_dung_lop_stop_watch.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +204,7 @@
       <workItem from="1733237774143" duration="6788000" />
       <workItem from="1733424787121" duration="4732000" />
       <workItem from="1733490483044" duration="2422000" />
-      <workItem from="1733744888473" duration="2903000" />
+      <workItem from="1733744888473" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -308,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733492086721</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733752010389</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733752010389</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
