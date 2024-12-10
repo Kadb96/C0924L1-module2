@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppoint2dvaloppoint3d/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,7 @@
     "Application.UngDungChuyenDoiTienTe.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
     "Application.bai_tap.lopcirclevalopcylinder.Run.executor": "Run",
+    "Application.bai_tap.loppointvamoveablepoint.Run.executor": "Run",
     "Application.bai_tap.xay_dung_lop_fan.Run.executor": "Run",
     "Application.bai_tap.xay_dung_lop_stop_watch.Run.executor": "Run",
     "Application.ungDungDocSoThanhChu.executor": "Run",
@@ -91,7 +92,7 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="Application.bai_tap.loppointvamoveablepoint.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.loppoint2dvaloppoint3d.Run" />
       <module name="ss6" />
@@ -144,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.xay_dung_lop_fan.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.xay_dung_lop_fan.Run" />
-      <module name="ss4" />
+    <configuration name="bai_tap.loppointvamoveablepoint.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.loppointvamoveablepoint.Run" />
+      <module name="ss6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.xay_dung_lop_fan.*" />
+          <option name="PATTERN" value="bai_tap.loppointvamoveablepoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bai_tap.loppointvamoveablepoint.Run" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.bai_tap.lopcirclevalopcylinder.Run" />
         <item itemvalue="Application.TestCircle" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.bai_tap.xay_dung_lop_fan.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +205,8 @@
       <workItem from="1733237774143" duration="6788000" />
       <workItem from="1733424787121" duration="4732000" />
       <workItem from="1733490483044" duration="2422000" />
-      <workItem from="1733744888473" duration="4597000" />
+      <workItem from="1733744888473" duration="4619000" />
+      <workItem from="1733852274663" duration="1675000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -318,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733752010389</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733754577347</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733754577347</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
