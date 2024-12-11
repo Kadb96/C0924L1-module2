@@ -2,7 +2,7 @@ package baitap.lopcirclevalopcylinder;
 
 public class Run {
     public static void main(String[] args) {
-        Circle circle = new Circle(2, "red");
+        baitap.lopcirclevalopcylinder.Circle circle = new baitap.lopcirclevalopcylinder.Circle(2, "red");
         System.out.println(circle);
         System.out.println("Area of circle is " + circle.getArea());
 

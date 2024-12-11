@@ -2,7 +2,7 @@ package baitap.loppointvamoveablepoint;
 
 public class Run {
     public static void main(String[] args) {
-        Point point = new Point(1,2);
+        baitap.loppointvamoveablepoint.Point point = new baitap.loppointvamoveablepoint.Point(1,2);
         System.out.println(point);
         System.out.println(point.getX());
         System.out.println(point.getY());
@@ -13,7 +13,7 @@ public class Run {
         System.out.println(point);
         System.out.println(point.getXY()[0]);
         System.out.println(point.getXY()[1]);
-        MoveablePoint moveablePoint = new MoveablePoint(1,2,3,4);
+        baitap.loppointvamoveablepoint.MoveablePoint moveablePoint = new baitap.loppointvamoveablepoint.MoveablePoint(1,2,3,4);
         System.out.println(moveablePoint);
         moveablePoint.setX(4);
         moveablePoint.setY(3);

@@ -1,6 +1,6 @@
 package baitap.lopcirclevalopcylinder;
 
-public class Cylinder extends Circle {
+public class Cylinder extends baitap.lopcirclevalopcylinder.Circle {
     private double height;
 
     public Cylinder(double radius, String color, double height) {

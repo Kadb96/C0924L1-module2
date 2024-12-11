@@ -1,6 +1,6 @@
 package baitap.loppointvamoveablepoint;
 
-public class MoveablePoint extends Point {
+public class MoveablePoint extends baitap.loppointvamoveablepoint.Point {
     private float xSpeed = 0.0f;
     private float ySpeed = 0.0f;
 
