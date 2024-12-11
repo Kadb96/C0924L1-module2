@@ -1,4 +1,4 @@
-package bai_tap.loppointvamoveablepoint;
+package baitap.loppointvamoveablepoint;
 
 public class Point {
     private float x = 0.0f;

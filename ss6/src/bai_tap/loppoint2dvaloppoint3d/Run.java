@@ -1,4 +1,4 @@
-package bai_tap.loppoint2dvaloppoint3d;
+package baitap.loppoint2dvaloppoint3d;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package bai_tap.loppointvamoveablepoint;
+package baitap.loppointvamoveablepoint;
 
 public class MoveablePoint extends Point {
     private float xSpeed = 0.0f;

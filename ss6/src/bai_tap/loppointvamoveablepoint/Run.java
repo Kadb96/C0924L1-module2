@@ -1,4 +1,4 @@
-package bai_tap.loppointvamoveablepoint;
+package baitap.loppointvamoveablepoint;
 
 public class Run {
     public static void main(String[] args) {

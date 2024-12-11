@@ -1,4 +1,4 @@
-package bai_tap.loppoint2dvaloppoint3d;
+package baitap.loppoint2dvaloppoint3d;
 
 public class Point2D {
     private float x = 0.0f;
