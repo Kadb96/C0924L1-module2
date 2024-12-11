@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change beforePath="$PROJECT_DIR$/ss6/src/bai_tap/lopcirclevalopcylinder/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/src/bai_tap/lopcirclevalopcylinder/Cylinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/MoveablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/MoveablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/src/bai_tap/loppointvamoveablepoint/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +206,7 @@
       <workItem from="1733490483044" duration="2422000" />
       <workItem from="1733744888473" duration="4619000" />
       <workItem from="1733852274663" duration="1848000" />
-      <workItem from="1733916276055" duration="1125000" />
+      <workItem from="1733916276055" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -344,7 +344,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733922660073</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733923089372</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923089372</updated>
+    </task>
+    <task id="LOCAL-00019" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733923129911</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733923129911</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

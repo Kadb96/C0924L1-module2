@@ -1,8 +1,8 @@
-package baitap.loppointvamoveablepoint;
+package bai_tap.loppointvamoveablepoint;
 
 public class Run {
     public static void main(String[] args) {
-        baitap.loppointvamoveablepoint.Point point = new baitap.loppointvamoveablepoint.Point(1,2);
+        bai_tap.loppointvamoveablepoint.Point point = new bai_tap.loppointvamoveablepoint.Point(1,2);
         System.out.println(point);
         System.out.println(point.getX());
         System.out.println(point.getY());
@@ -13,7 +13,7 @@ public class Run {
         System.out.println(point);
         System.out.println(point.getXY()[0]);
         System.out.println(point.getXY()[1]);
-        baitap.loppointvamoveablepoint.MoveablePoint moveablePoint = new baitap.loppointvamoveablepoint.MoveablePoint(1,2,3,4);
+        bai_tap.loppointvamoveablepoint.MoveablePoint moveablePoint = new bai_tap.loppointvamoveablepoint.MoveablePoint(1,2,3,4);
         System.out.println(moveablePoint);
         moveablePoint.setX(4);
         moveablePoint.setY(3);
