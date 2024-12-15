@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/SquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/ss8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +63,13 @@
     "Application.HienThiLoiChao.executor": "Run",
     "Application.RectangleTest.executor": "Run",
     "Application.Run.executor": "Run",
+    "Application.SquareTest.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TestCircle.executor": "Run",
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TimGiaTriLonNhatTrongMangHaiChieu.executor": "Run",
     "Application.UngDungChuyenDoiTienTe.executor": "Run",
+    "Application.View.executor": "Debug",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
     "Application.bai_tap.lopcirclevalopcylinder.Run.executor": "Run",
     "Application.bai_tap.loppointvamoveablepoint.Run.executor": "Run",
@@ -83,7 +91,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss7/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss8/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,7 +105,7 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SquareTest">
+  <component name="RunManager" selected="Application.View">
     <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.CircleTest" />
       <module name="ss7" />
@@ -121,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.loppoint2dvaloppoint3d.Run" />
-      <module name="ss6" />
+    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.SquareTest" />
+      <module name="ss7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.loppoint2dvaloppoint3d.*" />
+          <option name="PATTERN" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.SquareTest" />
-      <module name="ss7" />
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.quan_ly_khach_hang_crud.view.View" />
+      <module name="ss8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.*" />
+          <option name="PATTERN" value="bai_tap.quan_ly_khach_hang_crud.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.SquareTest" />
         <item itemvalue="Application.RectangleTest" />
         <item itemvalue="Application.CircleTest" />
         <item itemvalue="Application.bai_tap.loppointvamoveablepoint.Run" />
-        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +220,9 @@
       <workItem from="1733490483044" duration="2422000" />
       <workItem from="1733744888473" duration="4619000" />
       <workItem from="1733852274663" duration="1848000" />
-      <workItem from="1733916276055" duration="2810000" />
+      <workItem from="1733916276055" duration="3027000" />
+      <workItem from="1734094691797" duration="4773000" />
+      <workItem from="1734282446879" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -379,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733924132243</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1733924915022</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733924915022</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +437,16 @@
           <url>file://$PROJECT_DIR$/ss7/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss8/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss8/src/bai_tap/quan_ly_khach_hang_crud/service/CustomerService.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
