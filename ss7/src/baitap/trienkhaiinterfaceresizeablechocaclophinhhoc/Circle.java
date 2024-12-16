@@ -1,8 +1,6 @@
 package baitap.trienkhaiinterfaceresizeablechocaclophinhhoc;
 
-import java.io.Serializable;
-
-public class Circle extends Shape implements Resizeable {
+public class Circle extends Shape {
     private double radius = 1.0;
 
     public Circle() {
@@ -44,5 +42,10 @@ public class Circle extends Shape implements Resizeable {
     @Override
     public void resize(double percent) {
         this.radius *= percent;
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color the whole radius");
     }
 }

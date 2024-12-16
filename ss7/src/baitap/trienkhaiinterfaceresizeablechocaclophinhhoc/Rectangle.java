@@ -1,6 +1,6 @@
 package baitap.trienkhaiinterfaceresizeablechocaclophinhhoc;
 
-public class Rectangle extends Shape implements Resizeable{
+public class Rectangle extends Shape {
     private double width = 1.0;
     private double length = 1.0;
 
@@ -56,5 +56,10 @@ public class Rectangle extends Shape implements Resizeable{
     public void resize(double percent) {
         this.width *= percent;
         this.length *= percent;
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four side");
     }
 }

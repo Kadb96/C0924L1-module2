@@ -1,6 +1,8 @@
 package baitap.trienkhaiinterfaceresizeablechocaclophinhhoc;
 
-public class Shape {
+import java.io.Serializable;
+
+public abstract class Shape {
     private String color = "green";
     private boolean filled = true;
 
@@ -35,4 +37,8 @@ public class Shape {
                 + " and "
                 + (isFilled() ? "filled" : "not filled");
     }
+
+    public abstract void resize(double percent);
+
+    public abstract void howToColor();
 }
