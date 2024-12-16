@@ -57,9 +57,4 @@ public class Rectangle extends Shape {
         this.width *= percent;
         this.length *= percent;
     }
-
-    @Override
-    public void howToColor() {
-        System.out.println("Color all four side");
-    }
 }

@@ -9,12 +9,18 @@ public class Test {
 
         for (Shape shape : shapes) {
             System.out.println(shape);
+            System.out.println(shape.getArea());
         }
         for (Shape value : shapes) {
             value.resize(1.3);
         }
         for (Shape shape : shapes) {
             System.out.println(shape);
+            System.out.println(shape.getArea());
+            if (shape instanceof Square) {
+                Square square = (Square) shape;
+                square.howToColor();
+            }
         }
     }
 }

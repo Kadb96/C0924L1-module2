@@ -2,7 +2,7 @@ package baitap.trienkhaiinterfaceresizeablechocaclophinhhoc;
 
 import java.io.Serializable;
 
-public abstract class Shape {
+public abstract class Shape implements Resizeable {
     private String color = "green";
     private boolean filled = true;
 
@@ -40,5 +40,5 @@ public abstract class Shape {
 
     public abstract void resize(double percent);
 
-    public abstract void howToColor();
+    public abstract double getArea();
 }

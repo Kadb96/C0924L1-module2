@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/CircleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/RectangleTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/ShapeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/SquareTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ss7/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/CircleTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/RectangleTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/ShapeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/SquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/src/baitap/trienkhaiinterfaceresizeablechocaclophinhhoc/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,6 +223,7 @@
       <workItem from="1734094691797" duration="4773000" />
       <workItem from="1734282446879" duration="5221000" />
       <workItem from="1734353767090" duration="1382000" />
+      <workItem from="1734355311523" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -433,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734289330277</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1734355337357</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734355337357</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
