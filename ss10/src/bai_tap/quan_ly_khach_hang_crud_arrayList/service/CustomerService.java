@@ -1,6 +1,6 @@
-package bai_tap.quan_ly_khach_hang_crud.service;
+package bai_tap.quan_ly_khach_hang_crud_arrayList.service;
 
-import bai_tap.quan_ly_khach_hang_crud.model.Customer;
+import bai_tap.quan_ly_khach_hang_crud_arrayList.model.Customer;
 
 import java.util.Scanner;
 
