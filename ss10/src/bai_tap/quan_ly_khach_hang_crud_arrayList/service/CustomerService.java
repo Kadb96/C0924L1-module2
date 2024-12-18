@@ -2,15 +2,17 @@ package bai_tap.quan_ly_khach_hang_crud_arrayList.service;
 
 import bai_tap.quan_ly_khach_hang_crud_arrayList.model.Customer;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class CustomerService implements ICustomerService {
-    static Customer[] customers = new Customer[10];
+    static List<Customer> customers = new ArrayList<>();
 
     static {
-        customers[0] = new Customer("1", "Vu", "09/06", "An Trach");
-        customers[1] = new Customer("2", "Em Trang", "09/11", "Khuong Dinh");
-        customers[2] = new Customer("3", "Loc Toc", "20/02", "My Dinh");
+        customers.add(new Customer("1", "Vu", "09/06", "An Trach"));
+        customers.add(new Customer("2", "Em Trang", "09/11", "Khuong Dinh"));
+        customers.add(new Customer("3", "Loc Toc", "20/02", "My Dinh"));
     }
 
     @Override
@@ -30,9 +32,6 @@ public class CustomerService implements ICustomerService {
             System.out.println("Enter ID");
             id = scanner.nextLine();
             for (Customer customer : customers) {
-                if (customer == null) {
-                    continue;
-                }
                 if (id.equals(customer.getId())) {
                     System.out.println("id " + id + " is already added");
                     isIdValid = false;
@@ -46,19 +45,7 @@ public class CustomerService implements ICustomerService {
         String dateOfBirth = scanner.nextLine();
         System.out.println("Enter Address");
         String address = scanner.nextLine();
-        boolean isArrayFull = true;
-        for (int i = 0; i < customers.length; i++) {
-            if (customers[i] == null) {
-                customers[i] = new Customer(id, name, dateOfBirth, address);
-                isArrayFull = false;
-                break;
-            }
-        }
-        if (isArrayFull) {
-            System.out.println("Customer is full");
-        }
-
-
+        customers.add(new Customer(id, name, dateOfBirth, address));
     }
 
     @Override
@@ -70,19 +57,10 @@ public class CustomerService implements ICustomerService {
             isIdValid = false;
             System.out.println("Enter ID");
             id = scanner.nextLine();
-            for (int i = 0; i < customers.length; i++) {
-                if (customers[i] == null) {
-                    continue;
-                }
-                if (id.equals(customers[i].getId())) {
+            for (int i = 0; i < customers.size(); i++) {
+                if (id.equals(customers.get(i).getId())) {
                     isIdValid = true;
-                    for (int j = i; j < customers.length; j++) {
-                        if (j == customers.length - 1) {
-                            customers[j] = null;
-                        } else {
-                            customers[j] = customers[j + 1];
-                        }
-                    }
+                    customers.remove(i);
                     break;
                 }
             }
@@ -99,11 +77,8 @@ public class CustomerService implements ICustomerService {
             isIdValid = false;
             System.out.println("Enter ID");
             id = scanner.nextLine();
-            for (int i = 0; i < customers.length; i++) {
-                if (customers[i] == null) {
-                    continue;
-                }
-                if (id.equals(customers[i].getId())) {
+            for (int i = 0; i < customers.size(); i++) {
+                if (id.equals(customers.get(i).getId())) {
                     isIdValid = true;
                     System.out.println("Enter customer name");
                     String name = scanner.nextLine();
@@ -111,7 +86,7 @@ public class CustomerService implements ICustomerService {
                     String dateOfBirth = scanner.nextLine();
                     System.out.println("Enter Address");
                     String address = scanner.nextLine();
-                    customers[i] = new Customer(id, name, dateOfBirth, address);
+                    customers.set(i,new Customer(id, name, dateOfBirth, address));
                     break;
                 }
             }

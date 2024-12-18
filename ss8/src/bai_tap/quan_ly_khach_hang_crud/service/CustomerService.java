@@ -57,8 +57,6 @@ public class CustomerService implements ICustomerService {
         if (isArrayFull) {
             System.out.println("Customer is full");
         }
-
-
     }
 
     @Override
