@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap" />
+    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
+      <change afterPath="$PROJECT_DIR$/ss11/src/bai_tap/dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/ss11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +88,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss10/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss11/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -100,13 +105,13 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.View">
-    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.RectangleTest" />
-      <module name="ss7" />
+  <component name="RunManager" selected="Application.Run">
+    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack.Run" />
+      <module name="ss11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.*" />
+          <option name="PATTERN" value="bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Run" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.bai_tap.quan_ly_khach_hang_crud_arrayList.view.View" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SquareTest" />
-        <item itemvalue="Application.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +225,8 @@
       <workItem from="1734282446879" duration="5221000" />
       <workItem from="1734353767090" duration="1382000" />
       <workItem from="1734355311523" duration="1087000" />
-      <workItem from="1734526697722" duration="1891000" />
+      <workItem from="1734526697722" duration="2330000" />
+      <workItem from="1734958881459" duration="985000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -528,6 +534,16 @@
           <url>file://$PROJECT_DIR$/ss10/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/s11/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss11/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
