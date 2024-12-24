@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap">
-      <change afterPath="$PROJECT_DIR$/ss11/src/bai_tap/dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11/ss11.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/src/bai_tap/chuyen_doi_tu_he_nhi_phan_sang_thap_phan/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/src/bai_tap/kiem_tra_chuoi_palindrome_su_dung_queue/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,8 @@
     "Application.UngDungChuyenDoiTienTe.executor": "Run",
     "Application.View.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
+    "Application.bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run.executor": "Run",
+    "Application.bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run.executor": "Run",
     "Application.bai_tap.lopcirclevalopcylinder.Run.executor": "Run",
     "Application.bai_tap.loppointvamoveablepoint.Run.executor": "Run",
     "Application.bai_tap.quan_ly_khach_hang_crud_arrayList.view.View.executor": "Run",
@@ -105,7 +106,7 @@
       <recent name="baitap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="Application.bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack.Run" />
       <module name="ss11" />
@@ -119,38 +120,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.SquareTest" />
-      <module name="ss7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.Test" />
-      <module name="ss7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.quan_ly_khach_hang_crud.view.View" />
       <module name="ss8" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bai_tap.quan_ly_khach_hang_crud.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run" />
+      <module name="ss11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run" />
+      <module name="ss11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run" />
+        <item itemvalue="Application.bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.bai_tap.quan_ly_khach_hang_crud_arrayList.view.View" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,7 @@
       <workItem from="1734353767090" duration="1382000" />
       <workItem from="1734355311523" duration="1087000" />
       <workItem from="1734526697722" duration="2330000" />
-      <workItem from="1734958881459" duration="985000" />
+      <workItem from="1734958881459" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -476,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734528458818</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="nop bai tap">
+      <option name="closed" value="true" />
+      <created>1734960085282</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1734960085282</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
