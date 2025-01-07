@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap ss14">
-      <change afterPath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/IllegalTriangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15/ss15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/data/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/data/new_file_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/run/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/data/customer_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16/ss16.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +76,7 @@
     "Application.ThemPhanTuVaoMang.executor": "Run",
     "Application.TimGiaTriLonNhatTrongMangHaiChieu.executor": "Run",
     "Application.UngDungChuyenDoiTienTe.executor": "Run",
+    "Application.View (1).executor": "Run",
     "Application.View.executor": "Run",
     "Application.XoaPhanTuKhoiMang.executor": "Run",
     "Application.bai_tap.cai_dat_thuat_toan_xep_chen.Run.executor": "Run",
@@ -94,13 +103,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Desktop/codegym/module2/ss12/src/bai_tap/luyen_tap_su_dung_inkedlist_trong_java_collection_framework",
+    "last_opened_file_path": "C:/Users/ASUS/Desktop/codegym/module2/ss16/src/bai_tap/copy_file_text",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss15/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss16/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -110,6 +119,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Desktop\codegym\module2\ss16\src\bai_tap\copy_file_text" />
       <recent name="C:\Users\ASUS\Desktop\codegym\module2\ss12\src\bai_tap\luyen_tap_su_dung_inkedlist_trong_java_collection_framework" />
       <recent name="C:\Users\ASUS\Desktop\codegym\module2\ss12\src\bai_tap\luyen_tap_su_dung_arraylist_trong_java_collection_framework" />
       <recent name="C:\Users\ASUS\Desktop\codegym\module2\ss12\src\bai_tap" />
@@ -123,13 +133,39 @@
       <recent name="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.bai_tap.su_dung_lop_illegalTriangleException.Run">
+  <component name="RunManager" selected="Application.View (1)">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack.Run" />
-      <module name="ss11" />
+      <option name="MAIN_CLASS_NAME" value="bai_tap.copy_file_text.run.Run" />
+      <module name="ss16" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.dao_nguoc_phan_tu_trong_mang_so_nguyen_su_phan_tu_stack.*" />
+          <option name="PATTERN" value="bai_tap.copy_file_text.run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="View (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.quan_ly_khach_hang_crud.view.View" />
+      <module name="ss16" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.quan_ly_khach_hang_crud.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.quan_ly_khach_hang_crud.view.View" />
+      <module name="ss8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bai_tap.quan_ly_khach_hang_crud.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,38 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.minh_hoa_thuat_toan_xep_chen.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.minh_hoa_thuat_toan_xep_chen.Run" />
-      <module name="ss14" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_tap.minh_hoa_thuat_toan_xep_chen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bai_tap.su_dung_lop_illegalTriangleException.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.su_dung_lop_illegalTriangleException.Run" />
       <module name="ss15" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bai_tap.su_dung_lop_illegalTriangleException.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.Run" />
-      <module name="ss13" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View (1)" />
+        <item itemvalue="Application.Run" />
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.bai_tap.su_dung_lop_illegalTriangleException.Run" />
         <item itemvalue="Application.bai_tap.cai_dat_thuat_toan_xep_chen.Run" />
-        <item itemvalue="Application.bai_tap.minh_hoa_thuat_toan_xep_chen.Run" />
-        <item itemvalue="Application.bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.Run" />
-        <item itemvalue="Application.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +263,10 @@
       <workItem from="1735490378174" duration="5000" />
       <workItem from="1735563551656" duration="2261000" />
       <workItem from="1735565874264" duration="1574000" />
-      <workItem from="1736099740953" duration="2318000" />
+      <workItem from="1736099740953" duration="2360000" />
+      <workItem from="1736168029792" duration="1253000" />
+      <workItem from="1736262394694" duration="1750000" />
+      <workItem from="1736275729259" duration="7114000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -559,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735566661921</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="nop bai tap ss14">
+      <option name="closed" value="true" />
+      <created>1736102241616</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1736102241616</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,6 +683,11 @@
           <url>file://$PROJECT_DIR$/ss15/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss16/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
