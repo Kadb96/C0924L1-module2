@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap ss14">
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/data/product_data_file.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/WriteAndReadProductFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss17/ss17.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap ss17">
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/copy_san_pham_file_nhi_phan/data/source_file.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/copy_san_pham_file_nhi_phan/data/target_file.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/copy_san_pham_file_nhi_phan/run/Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +260,7 @@
       <workItem from="1736262394694" duration="1750000" />
       <workItem from="1736275729259" duration="7287000" />
       <workItem from="1736341578082" duration="5243000" />
-      <workItem from="1736441036012" duration="2106000" />
+      <workItem from="1736441036012" duration="4450000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -588,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736285229023</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="nop bai tap ss17">
+      <option name="closed" value="true" />
+      <created>1736443216533</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1736443216534</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +624,8 @@
     <MESSAGE value="nop bai tap ss11" />
     <MESSAGE value="nop bai tap ss12" />
     <MESSAGE value="nop bai tap ss14" />
-    <option name="LAST_COMMIT_MESSAGE" value="nop bai tap ss14" />
+    <MESSAGE value="nop bai tap ss17" />
+    <option name="LAST_COMMIT_MESSAGE" value="nop bai tap ss17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
