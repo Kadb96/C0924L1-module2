@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap ss14">
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/data/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/data/new_file_1.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/copy_file_text/run/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/data/customer_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/src/bai_tap/quan_ly_khach_hang_crud/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss16/ss16.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/data/product_data_file.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/service/WriteAndReadProductFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/src/bai_tap/quan_ly_san_pham_luu_ra_file_nhi_phan/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss17/ss17.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss15/src/bai_tap/su_dung_lop_illegalTriangleException/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,63 +57,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CircleTest.executor": "Run",
-    "Application.GopMang.executor": "Run",
-    "Application.HienThi20SoNguyenDauTien.executor": "Run",
-    "Application.HienThiCacLoaiHinh.executor": "Run",
-    "Application.HienThiCacSoNguyenToNhoHon100.executor": "Run",
-    "Application.HienThiLoiChao.executor": "Run",
-    "Application.RectangleTest.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.SquareTest.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestCircle.executor": "Run",
-    "Application.ThemPhanTuVaoMang.executor": "Run",
-    "Application.TimGiaTriLonNhatTrongMangHaiChieu.executor": "Run",
-    "Application.UngDungChuyenDoiTienTe.executor": "Run",
-    "Application.View (1).executor": "Run",
-    "Application.View.executor": "Run",
-    "Application.XoaPhanTuKhoiMang.executor": "Run",
-    "Application.bai_tap.cai_dat_thuat_toan_xep_chen.Run.executor": "Run",
-    "Application.bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run.executor": "Run",
-    "Application.bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run.executor": "Run",
-    "Application.bai_tap.lopcirclevalopcylinder.Run.executor": "Run",
-    "Application.bai_tap.loppointvamoveablepoint.Run.executor": "Run",
-    "Application.bai_tap.luyen_tap_su_dung_arraylist_trong_java_collection_framework.view.View.executor": "Run",
-    "Application.bai_tap.luyen_tap_su_dung_linkedlist_trong_java_collection_framework.view.View.executor": "Run",
-    "Application.bai_tap.minh_hoa_thuat_toan_xep_chen.Run.executor": "Run",
-    "Application.bai_tap.quan_ly_khach_hang_crud_arrayList.view.View.executor": "Run",
-    "Application.bai_tap.su_dung_lop_illegalTriangleException.Run.executor": "Run",
-    "Application.bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.Run.executor": "Run",
-    "Application.bai_tap.tim_chuoi_tang_dan_co_do_dai_lon_nhat.Run.executor": "Run",
-    "Application.bai_tap.xay_dung_lop_fan.Run.executor": "Run",
-    "Application.bai_tap.xay_dung_lop_stop_watch.Run.executor": "Run",
-    "Application.ungDungDocSoThanhChu.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Desktop/codegym/module2/ss16/src/bai_tap/copy_file_text",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/ASUS/Desktop/codegym/module2/ss16/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CircleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GopMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThi20SoNguyenDauTien.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiCacLoaiHinh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiCacSoNguyenToNhoHon100.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HienThiLoiChao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RectangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestCircle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThemPhanTuVaoMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimGiaTriLonNhatTrongMangHaiChieu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UngDungChuyenDoiTienTe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.View (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.View.executor&quot;: &quot;Run&quot;,
+    &quot;Application.XoaPhanTuKhoiMang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.cai_dat_thuat_toan_xep_chen.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.chuyen_doi_tu_he_nhi_phan_sang_thap_phan.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.kiem_tra_chuoi_palindrome_su_dung_queue.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.lopcirclevalopcylinder.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.loppointvamoveablepoint.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.luyen_tap_su_dung_arraylist_trong_java_collection_framework.view.View.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.luyen_tap_su_dung_linkedlist_trong_java_collection_framework.view.View.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.minh_hoa_thuat_toan_xep_chen.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.quan_ly_khach_hang_crud_arrayList.view.View.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.View.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.su_dung_lop_illegalTriangleException.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.tim_chuoi_lien_tiep_co_do_dai_lon_nhat.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.tim_chuoi_tang_dan_co_do_dai_lon_nhat.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.xay_dung_lop_fan.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bai_tap.xay_dung_lop_stop_watch.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ungDungDocSoThanhChu.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Desktop/codegym/module2/ss16/src/bai_tap/copy_file_text&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ASUS/Desktop/codegym/module2/ss17/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Desktop\codegym\module2\ss16\src\bai_tap\copy_file_text" />
@@ -133,7 +131,7 @@
       <recent name="baitap.trienkhaiinterfaceresizeablechocaclophinhhoc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.View (1)">
+  <component name="RunManager" selected="Application.bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.View">
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bai_tap.copy_file_text.run.Run" />
       <module name="ss16" />
@@ -173,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bai_tap.cai_dat_thuat_toan_xep_chen.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_tap.cai_dat_thuat_toan_xep_chen.Run" />
-      <module name="ss14" />
+    <configuration name="bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.View" />
+      <module name="ss17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_tap.cai_dat_thuat_toan_xep_chen.*" />
+          <option name="PATTERN" value="bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bai_tap.quan_ly_san_pham_luu_ra_file_nhi_phan.view.View" />
         <item itemvalue="Application.View (1)" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.View" />
         <item itemvalue="Application.bai_tap.su_dung_lop_illegalTriangleException.Run" />
-        <item itemvalue="Application.bai_tap.cai_dat_thuat_toan_xep_chen.Run" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +264,9 @@
       <workItem from="1736099740953" duration="2360000" />
       <workItem from="1736168029792" duration="1253000" />
       <workItem from="1736262394694" duration="1750000" />
-      <workItem from="1736275729259" duration="7114000" />
+      <workItem from="1736275729259" duration="7287000" />
+      <workItem from="1736341578082" duration="5243000" />
+      <workItem from="1736441036012" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -580,7 +580,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736102241616</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="nop bai tap ss14">
+      <option name="closed" value="true" />
+      <created>1736285229023</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1736285229023</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,6 +696,11 @@
           <url>file://$PROJECT_DIR$/ss16/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ss17/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
