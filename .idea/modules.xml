@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/casestudy/casestudy.iml" filepath="$PROJECT_DIR$/casestudy/casestudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/module2.iml" filepath="$PROJECT_DIR$/module2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss10/ss10.iml" filepath="$PROJECT_DIR$/ss10/ss10.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss11/ss11.iml" filepath="$PROJECT_DIR$/ss11/ss11.iml" />
@@ -11,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/ss15/ss15.iml" filepath="$PROJECT_DIR$/ss15/ss15.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss16/ss16.iml" filepath="$PROJECT_DIR$/ss16/ss16.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss17/ss17.iml" filepath="$PROJECT_DIR$/ss17/ss17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss18/ss18.iml" filepath="$PROJECT_DIR$/ss18/ss18.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss2/ss2.iml" filepath="$PROJECT_DIR$/ss2/ss2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss3/ss3.iml" filepath="$PROJECT_DIR$/ss3/ss3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ss4/ss4.iml" filepath="$PROJECT_DIR$/ss4/ss4.iml" />
