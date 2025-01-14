@@ -1,6 +1,7 @@
 package service;
 
 import model.OTo;
+import model.Xe;
 import model.XeMay;
 import model.XeTai;
 
@@ -107,12 +108,51 @@ public class WriteAndReadProductFile {
         return xeTaiList;
     }
 
-    public static void writeFileOTo(List<OTo> productList) throws IOException {
+    public static void writeFileOTo(List<OTo> oToList) throws IOException {
         File file = new File(FILE_PATH_O_TO);
-        FileOutputStream fos = null;
-        ObjectOutputStream oos = null;
-        fos = new FileOutputStream(file, false);
-        oos = new ObjectOutputStream(fos);
-        oos.writeObject(productList);
+        FileWriter fw = new FileWriter(file, false);
+        BufferedWriter bw = new BufferedWriter(fw);
+        boolean first = true;
+        for (OTo oTo : oToList) {
+            if (!first) {
+                bw.newLine();
+            }
+            bw.write(oTo.getBienKiemSoat() + "," + oTo.getTenHangSanXuat() + "," + oTo.getNamSanXuat()
+                    + "," + oTo.getChuSoHuu() + "," + oTo.getSoChoNgoi() + "," + oTo.getKieuXe());
+            first = false;
+        }
+        bw.close();
+    }
+
+    public static void writeFileXeMay(List<XeMay> xeMayList) throws IOException {
+        File file = new File(FILE_PATH_XE_MAY);
+        FileWriter fw = new FileWriter(file, false);
+        BufferedWriter bw = new BufferedWriter(fw);
+        boolean first = true;
+        for (XeMay xeMay : xeMayList) {
+            if (!first) {
+                bw.newLine();
+            }
+            bw.write(xeMay.getBienKiemSoat() + "," + xeMay.getTenHangSanXuat() + "," + xeMay.getNamSanXuat()
+                    + "," + xeMay.getChuSoHuu() + "," + xeMay.getCongSuat());
+            first = false;
+        }
+        bw.close();
+    }
+
+    public static void writeFileXeTai(List<XeTai> xeTaiList) throws IOException {
+        File file = new File(FILE_PATH_XE_TAI);
+        FileWriter fw = new FileWriter(file, false);
+        BufferedWriter bw = new BufferedWriter(fw);
+        boolean first = true;
+        for (XeTai xeTai : xeTaiList) {
+            if (!first) {
+                bw.newLine();
+            }
+            bw.write(xeTai.getBienKiemSoat() + "," + xeTai.getTenHangSanXuat() + "," + xeTai.getNamSanXuat()
+                    + "," + xeTai.getChuSoHuu() + "," + xeTai.getTrongTai());
+            first = false;
+        }
+        bw.close();
     }
 }

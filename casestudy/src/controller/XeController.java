@@ -18,7 +18,7 @@ public class XeController {
             System.out.println("--CHƯƠNG TRÌNH QUẢN LÝ PHƯƠNG TIỆN GIAO THÔNG--" + "\n" +
                     "  Chọn chức năng:" + "\n" +
                     "  1. Thêm mới phương tiện" + "\n" +
-                    "  2. Hiện thị phương tiện" + "\n" +
+                    "  2. Hiển thị phương tiện" + "\n" +
                     "  3. Xóa phương tiện" + "\n" +
                     "  4. Thoát");
             choose = Integer.parseInt(scanner.nextLine());
@@ -27,7 +27,7 @@ public class XeController {
                     System.out.println("   Thêm mới phương tiện:" + "\n" +
                             "   1. Thêm xe tải" + "\n" +
                             "   2. Thêm ô tô" + "\n" +
-                            "   3. Thêm  xe máy");
+                            "   3. Thêm xe máy");
                     choose = Integer.parseInt(scanner.nextLine());
                     switch (choose) {
                         case 1:
@@ -52,11 +52,12 @@ public class XeController {
                             }
                             break;
                     }
+                    break;
                 case 2:
                     System.out.println("   Hiển thị phương tiện:" + "\n" +
                             "   1. Hiển thị xe tải" + "\n" +
                             "   2. Hiển thị ô tô" + "\n" +
-                            "   3. Hiển thị  xe máy");
+                            "   3. Hiển thị xe máy");
                     choose = Integer.parseInt(scanner.nextLine());
                     switch (choose) {
                         case 1:
@@ -69,11 +70,12 @@ public class XeController {
                             xeMayService.showXe();
                             break;
                     }
+                    break;
                 case 3:
                     System.out.println("   Xóa phương tiện:" + "\n" +
                             "   1. Xóa xe tải" + "\n" +
                             "   2. Xóa ô tô" + "\n" +
-                            "   3. Xóa  xe máy");
+                            "   3. Xóa xe máy");
                     choose = Integer.parseInt(scanner.nextLine());
                     switch (choose) {
                         case 1:
@@ -98,6 +100,7 @@ public class XeController {
                             }
                             break;
                     }
+                    break;
                 case 4:
                     System.out.println("Thoát");
                     System.exit(0);

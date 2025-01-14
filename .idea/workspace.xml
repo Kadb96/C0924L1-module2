@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap ss17">
-      <change afterPath="$PROJECT_DIR$/casestudy/casestudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/controller/XeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/data/oTo.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/data/xeMay.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/data/xeTai.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/model/OTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/model/Xe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/model/XeMay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/model/XeTai.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/service/IXeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/service/OToService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/service/WriteAndReadProductFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/service/XeMayService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/service/XeTaiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casestudy/src/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss18/ss18.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2dd68857-46b9-485c-a70d-94d2b5b2ffa0" name="Changes" comment="nop bai tap casestudy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/controller/XeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/controller/XeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/service/IXeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/service/IXeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/service/OToService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/service/OToService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/service/WriteAndReadProductFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/service/WriteAndReadProductFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/service/XeMayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/service/XeMayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casestudy/src/service/XeTaiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/casestudy/src/service/XeTaiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +266,7 @@
       <workItem from="1736341578082" duration="5243000" />
       <workItem from="1736441036012" duration="4471000" />
       <workItem from="1736773956015" duration="4574000" />
-      <workItem from="1736876303192" duration="5602000" />
+      <workItem from="1736876303192" duration="8182000" />
     </task>
     <task id="LOCAL-00001" summary="nop bai tap">
       <option name="closed" value="true" />
@@ -615,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736448257508</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="nop bai tap casestudy">
+      <option name="closed" value="true" />
+      <created>1736884179033</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1736884179033</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,7 +647,8 @@
     <MESSAGE value="nop bai tap ss12" />
     <MESSAGE value="nop bai tap ss14" />
     <MESSAGE value="nop bai tap ss17" />
-    <option name="LAST_COMMIT_MESSAGE" value="nop bai tap ss17" />
+    <MESSAGE value="nop bai tap casestudy" />
+    <option name="LAST_COMMIT_MESSAGE" value="nop bai tap casestudy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
