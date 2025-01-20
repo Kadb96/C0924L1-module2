@@ -1,6 +1,7 @@
 package service;
 
 import model.XeTai;
+import util.WriteAndReadFile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ public class XeTaiService implements IXeService {
     @Override
     public void showXe() {
         List<XeTai> productList = new ArrayList<XeTai>();
-        productList = WriteAndReadProductFile.readFileXeTai();
+        productList = WriteAndReadFile.readFileXeTai();
         for (XeTai product : productList) {
             System.out.println(product);
         }
@@ -20,7 +21,7 @@ public class XeTaiService implements IXeService {
     public boolean addXe() {
         Scanner scanner = new Scanner(System.in);
         List<XeTai> xeTaiList = new ArrayList<XeTai>();
-        xeTaiList = WriteAndReadProductFile.readFileXeTai();
+        xeTaiList = WriteAndReadFile.readFileXeTai();
         try {
             System.out.println("Biển kiểm soát cần thêm mới:");
             String bienKiemSoat = scanner.nextLine();
@@ -33,7 +34,7 @@ public class XeTaiService implements IXeService {
             System.out.println("Tải trọng cần thêm mới:");
             float taiTrong = Float.parseFloat(scanner.nextLine());
             xeTaiList.add(new XeTai(bienKiemSoat, hangSanXuat, namSanXuat, chuSoHuu, taiTrong));
-            WriteAndReadProductFile.writeFileXeTai(xeTaiList);
+            WriteAndReadFile.writeFileXeTai(xeTaiList);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -44,7 +45,7 @@ public class XeTaiService implements IXeService {
     public boolean deleteXe() {
         Scanner scanner = new Scanner(System.in);
         List<XeTai> xeTaiList = new ArrayList<XeTai>();
-        xeTaiList = WriteAndReadProductFile.readFileXeTai();
+        xeTaiList = WriteAndReadFile.readFileXeTai();
         try {
             System.out.println("Biển kiểm soát xóa:");
             String bienKiemSoat = scanner.nextLine();
@@ -56,7 +57,7 @@ public class XeTaiService implements IXeService {
                     int choose = Integer.parseInt(scanner.nextLine());
                     if (choose == 1) {
                         xeTaiList.remove(i);
-                        WriteAndReadProductFile.writeFileXeTai(xeTaiList);
+                        WriteAndReadFile.writeFileXeTai(xeTaiList);
                     } else {
                         return false;
                     }

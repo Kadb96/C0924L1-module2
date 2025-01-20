@@ -1,6 +1,7 @@
 package service;
 
 import model.OTo;
+import util.WriteAndReadFile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ public class OToService implements IXeService {
     @Override
     public void showXe() {
         List<OTo> productList = new ArrayList<OTo>();
-        productList = WriteAndReadProductFile.readFileOTo();
+        productList = WriteAndReadFile.readFileOTo();
         for (OTo product : productList) {
             System.out.println(product);
         }
@@ -20,7 +21,7 @@ public class OToService implements IXeService {
     public boolean addXe() {
         Scanner scanner = new Scanner(System.in);
         List<OTo> oToList = new ArrayList<OTo>();
-        oToList = WriteAndReadProductFile.readFileOTo();
+        oToList = WriteAndReadFile.readFileOTo();
         try {
             System.out.println("Biển kiểm soát cần thêm mới:");
             String bienKiemSoat = scanner.nextLine();
@@ -35,7 +36,7 @@ public class OToService implements IXeService {
             System.out.println("Kiểu xe cần thêm mới:");
             String kieuXe = scanner.nextLine();
             oToList.add(new OTo(bienKiemSoat, hangSanXuat, namSanXuat, chuSoHuu, soChoNgoi, kieuXe));
-            WriteAndReadProductFile.writeFileOTo(oToList);
+            WriteAndReadFile.writeFileOTo(oToList);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -46,7 +47,7 @@ public class OToService implements IXeService {
     public boolean deleteXe() {
         Scanner scanner = new Scanner(System.in);
         List<OTo> oToList = new ArrayList<OTo>();
-        oToList = WriteAndReadProductFile.readFileOTo();
+        oToList = WriteAndReadFile.readFileOTo();
         try {
             System.out.println("Biển kiểm soát xóa:");
             String bienKiemSoat = scanner.nextLine();
@@ -58,7 +59,7 @@ public class OToService implements IXeService {
                     int choose = Integer.parseInt(scanner.nextLine());
                     if (choose == 1) {
                         oToList.remove(i);
-                        WriteAndReadProductFile.writeFileOTo(oToList);
+                        WriteAndReadFile.writeFileOTo(oToList);
                     } else {
                         return false;
                     }

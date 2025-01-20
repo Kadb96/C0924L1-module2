@@ -1,6 +1,7 @@
 package service;
 
 import model.XeMay;
+import util.WriteAndReadFile;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,7 @@ public class XeMayService implements IXeService {
     @Override
     public void showXe() {
         List<XeMay> productList = new ArrayList<XeMay>();
-        productList = WriteAndReadProductFile.readFileXeMay();
+        productList = WriteAndReadFile.readFileXeMay();
         for (XeMay product : productList) {
             System.out.println(product);
         }
@@ -20,7 +21,7 @@ public class XeMayService implements IXeService {
     public boolean addXe() {
         Scanner scanner = new Scanner(System.in);
         List<XeMay> xeMayList = new ArrayList<XeMay>();
-        xeMayList = WriteAndReadProductFile.readFileXeMay();
+        xeMayList = WriteAndReadFile.readFileXeMay();
         try {
             System.out.println("Biển kiểm soát cần thêm mới:");
             String bienKiemSoat = scanner.nextLine();
@@ -33,7 +34,7 @@ public class XeMayService implements IXeService {
             System.out.println("Công suất cần thêm mới:");
             float congSuat = Float.parseFloat(scanner.nextLine());
             xeMayList.add(new XeMay(bienKiemSoat, hangSanXuat, namSanXuat, chuSoHuu, congSuat));
-            WriteAndReadProductFile.writeFileXeMay(xeMayList);
+            WriteAndReadFile.writeFileXeMay(xeMayList);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -44,7 +45,7 @@ public class XeMayService implements IXeService {
     public boolean deleteXe() {
         Scanner scanner = new Scanner(System.in);
         List<XeMay> xeMayList = new ArrayList<XeMay>();
-        xeMayList = WriteAndReadProductFile.readFileXeMay();
+        xeMayList = WriteAndReadFile.readFileXeMay();
         try {
             System.out.println("Biển kiểm soát xóa:");
             String bienKiemSoat = scanner.nextLine();
@@ -56,7 +57,7 @@ public class XeMayService implements IXeService {
                     int choose = Integer.parseInt(scanner.nextLine());
                     if (choose == 1) {
                         xeMayList.remove(i);
-                        WriteAndReadProductFile.writeFileXeMay(xeMayList);
+                        WriteAndReadFile.writeFileXeMay(xeMayList);
                     } else {
                         return false;
                     }

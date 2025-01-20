@@ -1,4 +1,4 @@
-package service;
+package util;
 
 import model.OTo;
 import model.XeMay;
@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WriteAndReadProductFile {
+public class WriteAndReadFile {
     public static final String FILE_PATH_O_TO = "casestudy/src/data/oTo.csv";
     public static final String FILE_PATH_XE_MAY = "casestudy/src/data/xeMay.csv";
     public static final String FILE_PATH_XE_TAI = "casestudy/src/data/xeTai.csv";
