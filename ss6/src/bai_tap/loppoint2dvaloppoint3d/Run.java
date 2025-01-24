@@ -1,5 +1,6 @@
-package baitap.loppoint2dvaloppoint3d;
+package bai_tap.loppoint2dvaloppoint3d;
 
+import java.awt.geom.Point2D;
 import java.util.Scanner;
 
 public class Run {
@@ -35,7 +36,7 @@ public class Run {
         int x2 = Integer.parseInt(in.nextLine());
         int y2 = Integer.parseInt(in.nextLine());
         int z2 = Integer.parseInt(in.nextLine());
-        Point3D point2 = new Point3D(x2, y2, z2);
+        baitap.loppoint2dvaloppoint3d.Point3D point2 = new Point3D(x2, y2, z2);
         System.out.println("Test toString");
         System.out.println(point2);
         System.out.println("Test getX");

@@ -1,6 +1,6 @@
 package baitap.loppoint2dvaloppoint3d;
 
-public class Point3D extends Point2D {
+public class Point3D extends baitap.loppoint2dvaloppoint3d.Point2D {
     private float z = 0.0f;
 
     public Point3D(float x, float y, float z) {
